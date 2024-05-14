@@ -25,9 +25,11 @@ public class Jugador {
     int vidas;
 
 
-    public Jugador() {
-
+    public Jugador(TextView tvVidas) {
+        this.tvs=new TextView[3];
+        this.botones=new Button[3];
         this.vidas = 6;
+       this.tvVidas=tvVidas;
     }
 
 
@@ -101,4 +103,6 @@ public class Jugador {
     public void setTvVidas(TextView tvVidas) {
         this.tvVidas = tvVidas;
     }
+
+
 }

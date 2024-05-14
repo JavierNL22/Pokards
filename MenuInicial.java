@@ -17,7 +17,7 @@ public class MenuInicial extends AppCompatActivity {
 
     public void iniciar(View view) {
 
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, Partida.class);
         startActivity(intent);
     }
 }
